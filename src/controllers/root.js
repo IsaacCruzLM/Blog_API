@@ -5,5 +5,6 @@ const root = express.Router({ mergeParams: true });
 
 root.use('/user', require('./users/router'));
 root.post('/login', loginValidation, require('./login'));
+root.use('/categories', require('./categories/router'));
 
 module.exports = root;

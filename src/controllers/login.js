@@ -1,7 +1,7 @@
 const Services = require('../services/users');
 
 const INVALID_FIELDS = {
-    message: 'Invalid fields',
+  message: 'Invalid fields',
 };
 
 module.exports = async (req, res) => {
