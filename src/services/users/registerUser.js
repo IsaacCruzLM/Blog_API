@@ -2,9 +2,9 @@ const { User } = require('../../../models');
 const authService = require('../auth');
 
 module.exports = async (user) => {
-    const { name, email, password, image } = user;
+    const { displayName, email, password, image } = user;
     const newUser = {
-        name,
+        displayName,
         email,
         password,
         image,
