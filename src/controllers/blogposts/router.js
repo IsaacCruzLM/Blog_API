@@ -2,11 +2,13 @@ const express = require('express');
 const auth = require('../../middlewares/auth');
 const categoryIdsValidate = require('../../middlewares/blogposts/categoryIdsValidate');
 const blogPostValidate = require('../../middlewares/blogposts/blogPostValidate');
+const updateValidate = require('../../middlewares/blogposts/updateValidate');
 
 const router = express.Router({ mergeParams: true });
 
 router.post('/', auth, categoryIdsValidate, blogPostValidate, require('./registerBlogPost'));
 router.get('/', auth, require('./getAllBlogPost'));
 router.get('/:id', auth, require('./getBlogPostById'));
+router.put('/:postId', auth, updateValidate, require('./updateBlogPostById'));
 
 module.exports = router;
