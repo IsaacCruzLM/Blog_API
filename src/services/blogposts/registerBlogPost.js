@@ -11,8 +11,8 @@ module.exports = async (blogpost, userId) => {
         title,
         content,
         userId,
-        published: (new Date()).toISOString(),
-        updated: (new Date()).toISOString(),
+        published: new Date(),
+        updated: new Date(),
     };
 
     const blogPost = await sequelize.transaction(async (t) => {
