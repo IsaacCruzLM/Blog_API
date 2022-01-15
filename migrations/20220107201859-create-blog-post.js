@@ -15,7 +15,15 @@ module.exports = {
         type: Sequelize.STRING
       },
       userId: {
-        type: Sequelize.INTEGER
+        allowNull: false,
+        onUpdate: 'CASCADE',
+        onDelete: 'CASCADE',
+        references: {
+          model: 'Users',
+          key: 'id'
+        },
+        type: Sequelize.INTEGER,
+        field: 'user_id',
       },
       published: {
         type: Sequelize.STRING

@@ -17,6 +17,8 @@ module.exports = (req, res, next) => {
       return res.status(401).send(INVALID_JWT);
     }
 
+    console.log(user);
+
     req.user = user;
 
     next();
