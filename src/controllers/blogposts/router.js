@@ -7,5 +7,6 @@ const router = express.Router({ mergeParams: true });
 
 router.post('/', auth, categoryIdsValidate, blogPostValidate, require('./registerBlogPost'));
 router.get('/', auth, require('./getAllBlogPost'));
+router.get('/:id', auth, require('./getBlogPostById'));
 
 module.exports = router;
