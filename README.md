@@ -3,13 +3,7 @@
      <a href="#" alt="site do ecoleta"> Blog API </a>
 </h1>
 
-<p align="center">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/README-ecoleta">
-  
-  <a href="https://github.com/tgmarinho/README-ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/README-ecoleta">
-  </a>
-    
+<p align="center"> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
