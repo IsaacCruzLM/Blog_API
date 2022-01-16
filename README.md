@@ -114,7 +114,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Mysql2](https://www.npmjs.com/package/mysql2)**
 -   **[dotENV](https://github.com/motdotla/dotenv)**
 -   **[Jsonwebtoken](https://jwt.io/)**
--   **[jest](https://jestjs.io/)**
+-   **[Jest](https://jestjs.io/)**
 
 ---
 
@@ -124,7 +124,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
 ---
 
@@ -136,7 +135,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Isaac Cruz</b></sub></a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isaaccruzz/)](https://www.linkedin.com/in/isaaccruzz/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Isaac-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isaaccruzz/)](https://www.linkedin.com/in/isaaccruzz/) 
 [![Gmail Badge](https://img.shields.io/badge/-isaac.clm1@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:isaac.clm1@gmail.com)](mailto:isaac.clm1@gmail.com)
 
 ---
