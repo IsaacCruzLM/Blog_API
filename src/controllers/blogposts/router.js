@@ -10,5 +10,6 @@ router.post('/', auth, categoryIdsValidate, blogPostValidate, require('./registe
 router.get('/', auth, require('./getAllBlogPost'));
 router.get('/:id', auth, require('./getBlogPostById'));
 router.put('/:postId', auth, updateValidate, require('./updateBlogPostById'));
+router.delete('/:postId', auth, require('./deleteBlogPostById'));
 
 module.exports = router;
