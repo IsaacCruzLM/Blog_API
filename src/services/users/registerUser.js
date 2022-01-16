@@ -1,4 +1,4 @@
-const { User } = require('../../../models');
+const { User } = require('../../sequelize/models');
 const authService = require('../auth');
 
 module.exports = async (user) => {

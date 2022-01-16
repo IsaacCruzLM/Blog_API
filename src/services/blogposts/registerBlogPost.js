@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
-const config = require('../../../config/config');
-const { BlogPost, PostCategorie } = require('../../../models');
+const config = require('../../sequelize/config/config');
+const { BlogPost, PostCategorie } = require('../../sequelize/models');
 
 const sequelize = new Sequelize(config.development);
 

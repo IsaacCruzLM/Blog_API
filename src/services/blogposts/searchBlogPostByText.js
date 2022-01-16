@@ -1,5 +1,5 @@
 const { Op } = require('sequelize');
-const { BlogPost, User, Categorie } = require('../../../models');
+const { BlogPost, User, Categorie } = require('../../sequelize/models');
 
 // Requisição de OP do sequelize retirado do repositório de Eric Reis da turma 12
 module.exports = async (searchTerm) => (

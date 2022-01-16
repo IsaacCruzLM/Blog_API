@@ -1,4 +1,4 @@
-const { BlogPost, User, Categorie } = require('../../../models');
+const { BlogPost, User, Categorie } = require('../../sequelize/models');
 
 module.exports = async (id) => (
     BlogPost.findByPk(id, {

@@ -1,4 +1,4 @@
-const { BlogPost } = require('../../../models');
+const { BlogPost } = require('../../sequelize/models');
 
 const NOT_FOUND = { message: 'Post does not exist' };
 const NOT_AUTHORIZED = { message: 'Unauthorized user' };

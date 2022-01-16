@@ -1,4 +1,4 @@
-const { BlogPost, Categorie } = require('../../../models');
+const { BlogPost, Categorie } = require('../../sequelize/models');
 
 const NOT_FOUND = { message: 'Post not found' };
 const NOT_AUTHORIZED = { message: 'Unauthorized user' };

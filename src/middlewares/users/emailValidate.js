@@ -1,4 +1,4 @@
-const { User } = require('../../../models');
+const { User } = require('../../sequelize/models');
 
 // Regex retirado do cógido no link: <https://www.horadecodar.com.br/2020/09/13/como-validar-email-com-javascript/>
 const validateEmail = (email) => {
