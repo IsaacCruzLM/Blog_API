@@ -1,6 +1,6 @@
 
 <h1 align="center">
-     ♻️ <a href="#" alt="site do ecoleta"> Ecoleta </a>
+     <a href="#" alt="site do ecoleta"> Blog API </a>
 </h1>
 
 <p align="center">
@@ -20,7 +20,7 @@ Tabela de conteúdos
    * [Funcionalidades](#-funcionalidades)
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Configurando Variáveis de Ambiente](#configurando-variaveis-de-ambiente)
+     * [Configurando Variáveis de Ambiente](#configurando-variáveis-de-ambiente)
      * [Rodando o Servidor](#rodando-o-servidor)
      * [Rodando o Testes](#rodando-os-testes)
    * [Tecnologias](#-tecnologias)
