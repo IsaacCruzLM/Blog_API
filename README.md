@@ -107,7 +107,7 @@ $ npm run test-coverage
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-### [](https://github.com/IsaacCruzLM/Blog_API/edit/main#server)**Server**  ([NodeJS](https://nodejs.org/en/))
+### [](https://github.com/IsaacCruzLM/Blog_API/blob/main/README.md#server)**Server**  ([NodeJS](https://nodejs.org/en/))
 
 -   **[Express](https://expressjs.com/)**
 -   **[Sequelize](https://sequelize.org/v3/)**
