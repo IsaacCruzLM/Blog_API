@@ -21,10 +21,10 @@ Tabela de conteúdos
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
      * [Configurando Variáveis de Ambiente](#configurando-variáveis-de-ambiente)
-     * [Rodando o Servidor](#rodando-o-servidor)
-     * [Rodando o Testes](#rodando-os-testes)
+     * [Rodando o Servidor](#-rodando-o-servidor)
+     * [Rodando os Testes](#-rodando-os-testes)
    * [Tecnologias](#-tecnologias)
-     * [Server](#-server)
+     * [Server](#server)
    * [Como contribuir no projeto](#-como-contribuir-no-projeto)
    * [Autor](#-autor)
    * [Licença](#-licença)
@@ -107,7 +107,7 @@ $ npm run test-coverage
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-### **Server**  ([NodeJS](https://nodejs.org/en/))
+### [](https://github.com/IsaacCruzLM/Blog_API/edit/main#server)**Server**  ([NodeJS](https://nodejs.org/en/))
 
 -   **[Express](https://expressjs.com/)**
 -   **[Sequelize](https://sequelize.org/v3/)**
